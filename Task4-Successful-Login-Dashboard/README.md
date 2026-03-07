@@ -33,14 +33,19 @@ event_type="Successful SSH Login"
 
 ---
 
-### `Task_4-Count_of_Connections_without_authentication_by_IPs.png`
-![Connections Count](screenshots/Task_4-Count_of_Connections_without_authentication_by_IPs.png)
+### `Task_4-Count_of_Connections_with_succesfull_authentication.png`
+![Connections Count](screenshots/Task_4-Succesful_login_attempts.png)
 
-Stats count of unauthenticated connections by IP (1,219 total events) — used alongside successful login data to correlate IPs that probed then later authenticated successfully.
+Stats which pairs of source and destination IP have most successfull count of authentication attempts.
 
 ---
 
-### `Task_4-Creating_Classic_Dashboard_-1_.png`
-![Creating Dashboard](screenshots/Task_4-Creating_Classic_Dashboard_-1_.png)
+### `Task_4-How_to_create_a_classic_dashboard_in_Splunk.png`
+![Creating_Dashboard](screenshots/Task_4-Creating_Classic_Dashboard-1.png)
+
+"First Run the SPL query to View Desired result of Successfull Login of IPs", then go to Saves As --> Then click on create New Dashboard (Here we have used 'Trellis Layout' for individual IP dashboard as shown above)
+
+---
+
 
 "Save Panel to New Dashboard" dialog — Dashboard Title, Classic Dashboard type selected, Column Chart visualization, Private permissions.
