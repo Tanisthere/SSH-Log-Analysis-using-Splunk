@@ -10,7 +10,7 @@ This project demonstrates SOC-level security monitoring using Splunk by analyzin
 
 ## 🏗️ Real-World Production Architecture
 
-![Pipeline Diagram](assets/pipeline_diagram.png)
+![Pipeline Diagram](assets/pipelin_diagram.png)
 
 ```
 Remote Clients (Attackers/Users)
