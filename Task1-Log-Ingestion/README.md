@@ -48,7 +48,7 @@ source="ssh_logs.json" host="LAPTOP-Tanishq" sourcetype="_json"
 ## 🖼️ Screenshots
 
 ### `Task_1-Splunk_Dashboard.png`
-![Splunk Dashboard](screenshots/Task_1-Splunk_Dashboard.png)
+![Splunk Dashboard](screenshots/Task_1-_Validation_Search.png)
 
 Raw events view after upload — shows 3,600 ingested events, the event timeline bar, and an expanded event with all extracted fields visible (`auth_attempts`, `auth_success`, `event_type`, `id.orig_h`, `id.resp_h`, `ts`, etc.).
 
