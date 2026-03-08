@@ -51,15 +51,14 @@ event_type="Connection Without Authentication"
 ### `Task_5-Connections_without_authentication.png`
 ![Connections Without Auth](screenshots/Task_5-Connections_without_authentication.png)
 
-Statistics table — 858 events, 49 unique source IPs. Top IPs at 39 attempts each. These IPs connected to port 22 but never attempted credentials — classic port scan behaviour.
+Statistics table — 858 events, 49 unique source IPs. Top IPs at 39 attempts each. These IPs connected to port 22 (all connections in an SSH log are on port 22) but never attempted credentials — classic port scan behaviour.
 
 ---
 
 ### `Task_5-Timechart_of_connections_without_authentication.png`
 ![Timechart](screenshots/Task_5-Timechart_of_connections_without_authentication.png)
 
-Timechart output — most rows show zero; only two time buckets have activity:
-- `13:40` → 15 events (initial probe)
-- `15:50` → 858 events (main automated scan, 13ms burst)
-
-The zero-filled rows between these two times are **normal timechart behaviour** — Splunk fills every bucket in the time range, even empty ones. The gap tells the attack story: attacker probed at 13:40, paused ~2 hours, then launched the full automated scan at 15:50.
+Timechart output — single time bucket at `2025-04-24 15:50:09` 
+containing all 858 events. Every IP fired its probes within this 
+one-second window, confirming a simultaneous automated scan burst 
+rather than gradual human activity.
