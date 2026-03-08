@@ -56,7 +56,7 @@ splunk-ssh-analysis/
 | [Task 2](Task2-Failed-Login-Analysis/README.md) | Analyze failed logins | 915 events from 50 unique IPs |
 | [Task 3](Task3-Brute-Force-Detection/README.md) | Detect brute-force & configure alert | Alert fired 3× at 15-min intervals |
 | [Task 4](Task4-Successful-Login-Dashboard/README.md) | Track successful logins | 918 logins; dashboard created |
-| [Task 5](Task5-Unauthenticated-Connections/README.md) | Spot unauthenticated connections | 858 probes in 13ms — automated scanning confirmed |
+| [Task 5](Task5-Unauthenticated-Connections/README.md) | Spot unauthenticated connections | 858 probes all within 13ms at 15:50 — automated scanning confirmed |
 
 ---
 
@@ -73,4 +73,5 @@ splunk-ssh-analysis/
 
 #### [<u>*Install Splunk Enterprise*<u>](https://www.splunk.com/en_us/download/splunk-enterprise.html?utm_campaign=bing_ind_en_search_brand&utm_source=bing&utm_medium=cpc&utm_content=Splunk_Enterprise_Demo&utm_term=splunk%20enterprise&_bk=splunk%20enterprise&_bt=&_bm=e&_bn=o&_bg=1150090942143964&device=c&msclkid=fe0a13bf2c43160e58057a137e8aa81e)
 #### [<u>*Installation and Setup Video*<u>](https://youtu.be/E3Rofa1A6YM?si=I1zyJr92u9hwNpPU)
+### Download the ssh_log file for analysis from assets folder
 
